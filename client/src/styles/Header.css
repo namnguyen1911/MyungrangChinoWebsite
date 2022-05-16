@@ -1,0 +1,43 @@
+.Header{
+    width: 100%;
+    background: white;
+    overflow: hidden;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    height: auto;
+}   
+
+.header-portion-1{
+    font-size: 10px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#header-1{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    
+}
+
+#header-2{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-image: url('../../assets/logos/re/sign3-1.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+}
+
+#header-3{
+    padding-right: 15px;
+    justify-self: end;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5px;
+    justify-items: center;
+}
+
