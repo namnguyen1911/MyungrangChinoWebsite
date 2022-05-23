@@ -1,5 +1,6 @@
 import '../styles/Header.css';
 import {LogoInstagram, LogoFacebook, LogoTwitter} from 'react-ionicons';
+// import logo from "../../assets/logos/re/Sign1.jpg"
 
 const Header = () => {
     return (
