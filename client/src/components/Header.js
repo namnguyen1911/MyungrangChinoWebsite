@@ -1,10 +1,12 @@
 import '../styles/Header.css';
 import {LogoInstagram, LogoFacebook, LogoTwitter} from 'react-ionicons';
-// import logo from "../../assets/logos/re/Sign1.jpg"
+import logo from "../assets/logos/re/Sign1.jpg"
+
 
 const Header = () => {
     return (
         <div className="Header">
+            
             <div className="header-portion" id="header-1">
                 <div className="header-portion-1">
                     Home
@@ -17,8 +19,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="header-portion" id="header-2">
-                {/* <img src="../../assets/logos/re/sign3-1.png" alt="LOGOS"></img> */}
-                
+                <img src={logo} alt="LOGOS" id="logo"></img>
             </div>
             <div className="header-portion" id="header-3">
                 <div className="header-portion-3">

@@ -10,7 +10,7 @@
 }   
 
 .header-portion-1{
-    font-size: 10px;
+    font-size: 1.5vw;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -26,10 +26,11 @@
     display: grid;
     align-items: center;
     justify-items: center;
-    background-image: url('../../assets/logos/re/sign3-1.png');
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    
+}
+
+#logo{
+    width: 100%;
+    height: auto;
 }
 
 #header-3{
