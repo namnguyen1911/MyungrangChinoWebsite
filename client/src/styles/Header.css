@@ -10,7 +10,7 @@
 }   
 
 .header-portion-1{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -34,11 +34,25 @@
 }
 
 #header-3{
+    width: 15vw;
     padding-right: 15px;
     justify-self: end;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 20% 20% 20% 40%;
     grid-gap: 5px;
     justify-items: center;
+}
+
+.header-portion-3{
+    display: grid;
+    align-items: center;
+}
+
+#signIn{
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #eb4034;
+    text-align: center;
 }
 

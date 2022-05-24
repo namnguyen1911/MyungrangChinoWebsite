@@ -24,21 +24,24 @@ const Header = () => {
             <div className="header-portion" id="header-3">
                 <div className="header-portion-3">
                     <LogoFacebook 
-                        width="16px"
+                        width="2vw"
                         heiht="auto"
                     ></LogoFacebook>
                 </div>
                 <div className="header-portion-3">
                     <LogoInstagram 
-                        width="16px"
+                        width="2vw"
                         heiht="auto"
                     ></LogoInstagram>
                 </div>
                 <div className="header-portion-3">
                     <LogoTwitter 
-                        width="16px"
+                        width="2vw"
                         heiht="auto"
                     ></LogoTwitter>
+                </div>
+                <div className="header-portion-3" id="signIn">
+                    Sign in
                 </div>
             </div>
         </div>
